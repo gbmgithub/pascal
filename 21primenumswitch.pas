@@ -1,5 +1,5 @@
-Program Pzim ;
-{21}
+Program 21 primenumberswitch ;
+
 var num, metade, cont:integer;
 		chave:boolean;
 Begin
