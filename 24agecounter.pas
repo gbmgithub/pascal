@@ -52,11 +52,13 @@ Begin
 	 writeln('Data inserida no formato errado. Por gentileza, entre com dd/mm/aaaa. Obrigado.');
  write('Pressione "Enter" para encerrar o programa.');
  readln;
+ 
 {calculo idade:
 1- se a data de nascimento é maior que a atual (01 primeiro dia), então não soma este mês e
 adiciona 30 à data para que possa ser subtraído e pegar os dias restantes para saber
 quantos viveu
 2- se o mês for maior que o mês atual (01 janeiro), então não conta este mês e
 adiciona 12 ao mês para que se possa subtrair e achar a diferença)
-}			
+}
+
 End.
