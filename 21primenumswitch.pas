@@ -16,7 +16,7 @@ Begin
 	if ((chave) or (num=2)) then
 	writeln('primo=> ',num:4) 
 	else
-	writeln (num:4, ' naaao primo');
+	writeln (num:4, ' nao primo');
 	writeln('Pressione enter');
 	readln;
 End.
