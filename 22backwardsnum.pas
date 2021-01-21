@@ -13,6 +13,7 @@ Begin
 	dez:=num mod 10;//7
 	cen:=num div 10;//4
 	writeln('Número lido = ',aux:4, ' -- invertido é = ',uni,dez,cen);
-	write('enter para encerrar');
+	write('Pressione "Enter" para encerrar');
 	readln;
+	
 End.
