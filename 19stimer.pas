@@ -1,4 +1,4 @@
-Program Pzim ;
+Program 19 stimer ;
 {19
 }
 var min,seg:integer;
