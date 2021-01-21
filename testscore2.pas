@@ -3,7 +3,7 @@ Program noite01;
 VAR NOTA: INTEGER;
 Begin
 	WRITE ('DIGITE UMA NOTA');
-	READLN(NOTA); 			//sempre antes do readln, inserir um write para interagir com o usu·rio
+	READLN(NOTA); 			//sempre antes do readln, inserir um write para interagir com o usu√°rio
 	IF (NOTA<50) THEN
 		NOTA:=NOTA+10;
 	WRITELN (NOTA:10);
@@ -11,7 +11,7 @@ Begin
 	READLN;      				// este readln vazio fica esperando um aperto do ENTER
 											// usando begin e end
 	WRITE ('DIGITE OUTRA NOTA');
-	READLN(NOTA); 			//sempre antes do readln, inserir um write para interagir com o usu·rio
+	READLN(NOTA); 			//sempre antes do readln, inserir um write para interagir com o usu√°rio
 	IF (NOTA<50) THEN
 		BEGIN
 			WRITE('*');
