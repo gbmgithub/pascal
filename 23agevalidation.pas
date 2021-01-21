@@ -12,7 +12,7 @@ Begin
 	readln(ano);
 	chave:=true;
 //tentar provar q a data é inválida
-	if(ano>2010) or (ano<1940) then //definida pelo usuario. maior q 10 anos e menor q 80
+	if(ano>2010) or (ano<1940) then //definida pelo usuario. maior q 10 anos e menor q 80 neste caso
 		chave:=false
 	else
 		if(mes<1) or (mes>12) then //mes
