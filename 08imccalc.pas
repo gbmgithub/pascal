@@ -1,4 +1,4 @@
-Program exer08 ;
+Program 08 imccalc ;
 var sqalt,peso,alt,imc:real;
 Begin
 	writeln ('Este programa calcula o IMC de um paciente. Para tanto, entre com peso e altura.');
@@ -24,10 +24,10 @@ Begin
 				writeln ('Paciente obeso.');
     		end
 				else	
-		writeln ('Paciente acima do peso recomendado, mas n„o est· obeso.');
+		writeln ('Paciente acima do peso recomendado, mas n√£o est√° obeso.');
 		end
 		else		
-	writeln ('Paciente eutrÛfico, o peso est· normal.');
+	writeln ('Paciente eutr√≥fico, o peso est√° normal.');
 	end
 	else
 End.
