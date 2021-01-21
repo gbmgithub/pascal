@@ -2,6 +2,7 @@ Program 31 switchfromtable ;
 
 var a,b,c,d,e,f,g,h,i,j,k,l,leitura:integer;
 		key:boolean;
+		
 Begin
 	key:=true;
 	a:=50;
