@@ -1,5 +1,7 @@
-Program Pzim ;
+Program 22 backwardsnum ;
+
 var num,aux,uni,dez,cen:integer;
+
 Begin
 	repeat
 		write('num=> ');
@@ -10,7 +12,7 @@ Begin
 	num:=num div 10;//47
 	dez:=num mod 10;//7
 	cen:=num div 10;//4
-	writeln('Número lido = ',aux:4, ' -- invertido é = ',uni,dez,cen);
+	writeln('NÃºmero lido = ',aux:4, ' -- invertido Ã© = ',uni,dez,cen);
 	write('enter para encerrar');
 	readln;
 End.
