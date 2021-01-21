@@ -1,6 +1,9 @@
 Program 02 2nddegreeequation ;
+
 label 1,2,3,4,5,6,7,8,9,10;
+
 var a,b,c,delta,x1,x2,raiz:real;
+
 Begin {1}
 	writeln('Este programa calcula equações de segundo grau. ');
 	write('Digite o valor de "a" de sua equação: ');
