@@ -1,5 +1,7 @@
 Program 05 sorting ;
+
 Var nome1,nome2,nome3,first,middle,last:String[30]; //declarar variáveis de folga
+
 Begin
 		write ('Qual o primeiro nome?');
 		readln(nome1);
