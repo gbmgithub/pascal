@@ -1,4 +1,5 @@
 Program 07 simplecalc ;
+
 var num1,num2:real;
 		oper:char;
 Begin
