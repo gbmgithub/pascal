@@ -1,13 +1,12 @@
-Program Pzim ;
-{(17) 
-}
+Program 17 votingmachine ;
+
 var tota,totb,totc,totbr,toti,totv:integer;
 		pa,pb,pc,pbr,pi:real;
 		voto:char; //ou usando string de [1]
 Begin
 	write('Digite seu voto => ');
 	readln(voto);
-	voto:=upcase(voto);//upcase transforma minúsculas em maiúsculas
+	voto:=upcase(voto);//upcase transforma minÃºsculas em maiÃºsculas
 	while(voto <> '*') do
 		begin
 			totv:=totv+1;
