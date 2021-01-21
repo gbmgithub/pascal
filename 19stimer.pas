@@ -1,7 +1,7 @@
 Program 19 stimer ;
-{19
-}
+
 var min,seg:integer;
+
 Begin
 	gotoxy(30,15); //gotoxy posiciona o cursor na coluna A, linha B
 	writeln('10:00');
