@@ -4,7 +4,7 @@ Program 15testscore ;
 antes de encerrar o programa, mostra o total de notas litas e a média das notas. validar as notas.}
 
 // não sei quantas vezes vou ler, não posso usar o FOR, somente REPEAT ou WHILE.
-// sempre que a informação de entrada for condição de aprada de processo de repetição, devo usar
+// sempre que a informação de entrada for condição de parada de processo de repetição, devo usar
 // o while, pois ele primeiro testa, depois faz.
 
 var nota,soma,conta:integer;
