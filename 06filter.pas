@@ -1,4 +1,5 @@
 Program 06 filter ;
+
 var anos,nasc,votar,cnh,dias,year,month,day,wday:integer;
 
 Begin
