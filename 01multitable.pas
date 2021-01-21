@@ -1,4 +1,4 @@
-Program 01 ;
+Program 01 multitable ;
 var num, sequencia, sequencia2: integer;    //contagem sempre integer ou char
 Begin
 	writeln ('Este programa mostra a tabuada dos números inteiros entre um e dez.');
