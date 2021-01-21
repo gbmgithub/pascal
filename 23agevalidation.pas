@@ -1,4 +1,4 @@
-Program Pzim ;
+Program 23ageinputvalidation ;
 {23}
 
 var dia,mes,ano,diamax:integer;
@@ -6,12 +6,12 @@ var dia,mes,ano,diamax:integer;
 Begin
 	write('dia=>');
 	readln(dia);
-	write('mês=>');
+	write('mÃªs=>');
 	readln(mes);
 	write('ano=>');
 	readln(ano);
 	chave:=true;
-//tentar provar q a data é inválida
+//tentar provar q a data Ã© invÃ¡lida
 	if(ano>2010) or (ano<1940) then //definida pelo usuario. maior q 10 anos e menor q 80
 		chave:=false
 	else
