@@ -16,7 +16,10 @@ Begin
 				write('altura=> ');
 				readln(alt);
 		end;
+		
 	writeln('maior lida=',mai:4,'     menor lida=',men:4);
 	writeln('Pressione Enter para encerrar');
+	
 	readln;
+	
 End.
