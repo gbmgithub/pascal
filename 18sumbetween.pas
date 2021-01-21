@@ -2,6 +2,7 @@ Program 18 sumbetween ;
 
 var num,soma:integer;
 
+
 Begin
 	num:=3;
 	repeat
