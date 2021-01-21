@@ -1,0 +1,46 @@
+Program 15testscore ;
+
+{leia uma série de notas. a leitura termina quando for lida uma nota negativa.
+antes de encerrar o programa, mostra o total de notas litas e a média das notas. validar as notas.}
+
+// não sei quantas vezes vou ler, não posso usar o FOR, somente REPEAT ou WHILE.
+// sempre que a informação de entrada for condição de aprada de processo de repetição, devo usar
+// o while, pois ele primeiro testa, depois faz.
+
+var nota,soma,conta:integer;
+		media:real;
+		
+Begin
+//inicio validacao. fique lendo o que tem que ser lido até que a condição seja feita.
+//deixando passar uma nota negativa, pois ela é a condição de parada.
+//valida a primeira nota que o usuário entrar.
+	repeat
+		write('Digite a nota => ');
+		readln(nota);
+		if(nota>100)then
+			writeln('ilegal');
+	until(nota<=100);
+//fim da validação
+	while (nota>=0) do
+		begin
+			cont:=cont+1; //contador
+			soma:=soma+nota; //somador
+    	repeat
+				write('Digite a nota => ');
+				readln(nota);
+				if(nota>100)then
+				writeln('ilegal');
+			until(nota<=100);
+		end;
+//verificar o valor da variável cont (divisor)
+	if(cont>=0)then
+		begin
+			media:=soma/cont;
+			writeln('notas lidas=',cont:5,'      media=',media:10:3);
+		end
+	else
+		writeln('Nada foi lido.');	
+	writeln;
+	write('Pressione "Enter" para encerrar);
+	readln;
+End.
