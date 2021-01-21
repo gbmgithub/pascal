@@ -1,7 +1,7 @@
 Program exer11 ;
 var num, sequencia, sequencia2: integer;    //contagem sempre integer ou char
 Begin
-	writeln ('Este programa mostra a tabuada dos números inteiros entre um e dez.');
+	writeln ('Este programa mostra a tabuada dos nÃºmeros inteiros entre um e dez.');
 	writeln ('Pressione "Enter" para dar prosseguimento');
 	readln;
 	writeln ('Tabuada do um:');
@@ -14,7 +14,7 @@ Begin
 	begin
 	writeln (2*sequencia);
 	end;
-	writeln ('Tabuada do três:');
+	writeln ('Tabuada do trÃªs:');
 	for sequencia:= 1 to 10 do    //valor inicial e valorfinal
 	begin
 	writeln (3*sequencia);
