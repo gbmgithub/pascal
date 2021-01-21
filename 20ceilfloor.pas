@@ -1,6 +1,7 @@
-Program Pzim ;
-{20}
+Program 31 ceilfloor ;
+
 var alt,mai,men:integer;
+
 Begin
 	write('altura=> ');
 	readln(alt);
