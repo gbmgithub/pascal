@@ -1,5 +1,5 @@
 Program exer05 ;
-Var nome1,nome2,nome3,first,middle,last:String[30]; //declarar variáveis de folga
+Var nome1,nome2,nome3,first,middle,last:String[30]; //declarar variÃ¡veis de folga
 Begin
 		write ('Qual o primeiro nome?');
 		readln(nome1);
@@ -19,7 +19,7 @@ Begin
 				first:=nome2;
 				middle:=nome1;
 			end;
-//neste ponto quem é o maior entre 1 e 2 já está testado e registrado
+//neste ponto quem Ã© o maior entre 1 e 2 jÃ¡ estÃ¡ testado e registrado
 //verificar maior entre 3 e 1 e entre 3 e 2, mas antes 3 e 1;
 		if (nome3>first) then
 			begin
