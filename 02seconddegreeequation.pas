@@ -34,4 +34,5 @@ Begin {1}
 		begin
 			write('O valor de "a" precisa ser diferente de zero para ser uma equação de segundo grau.');
 		end
+		
 End.
