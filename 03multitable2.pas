@@ -1,4 +1,4 @@
-Program multitable2;
+Program 03 multitable2;
 
 var counter,limit,table,result:integer;
 
