@@ -6,7 +6,7 @@ Begin
 	counter:=0;
 	limit:=10;
 	                                      
-	writeln('Qual tabuada deseja resolver?');
+	writeln('Qual tabuada deseja resolver? Escolha um número entre 1 e 9');
 	readln(table);
 	while(counter<=limit) do
 		begin
